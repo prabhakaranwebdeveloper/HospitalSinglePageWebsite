@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    ::selection{
+        color:black;
+        background-color: aquamarine;
+    }
+}
+.gridlayout{
+    width: 92%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.mainheaderul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px;  
+    gap: 20px;
+    padding-top: 5px;
+    align-items: center;
+    background-color: white;
+}
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+}
+.mainheaderul li a{
+margin: 0px 50px;
+text-decoration: none;
+color: black;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+}
+.mainheaderul li {
+    list-style-type: none;
+}
+.headersubdivisionone{
+    padding: 10px;
+    width: 100%;
+}
+.herosectionimage{
+    background: url("/hospitalimages/landingimage.png");
+width: 100%;
+height: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.herosectioncontent{
+   padding-top: 40px;
+    color: white;
+    text-align: center;
+}
+.herosectioncontent h1{
+    font-size: 50px;
+    font-family: 'Outfit', sans-serif;
+}
+.herosectioncontent h5{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1;
+}
+.content1{
+  padding-bottom: 30px;
+}
+.content2{
+padding-top: 40px;
+}
+.content3{
+padding-top: 40PX;
+}
+.button{
+letter-spacing: 2px;
+    padding: 10PX 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;  
+ font-weight: bolder;
+ font-size: 20px;
+ border-radius: 10px;
+ background-color:#00D1FF;
+ border: none;
+ color: white;
+ margin-top: 50px;
+}
+.maincard1,.maincard2,.maincard3{
+background-color: #00D1FF;
+align-items: center;
+text-align: center;
+padding:10px 30px ;
+width: 300px;
+height: 100px;
+display: flex;
+margin-top: 40px;
+border-radius: 5px;
+font-family: 'Outfit', sans-serif;
+position: relative;
+}
+.icon1content h2,.icon2content h2,.icon3content h2{
+text-align: center;
+align-items: center;
+font-size: 30px;
+font-weight: bold;
+}
+.icon1content h3,.icon2content h3,.icon3content h3{
+margin: 0px 20px;
+font-size: 15px;
+    }
+     .icon1,.icon2,.icon3{
+        padding: 0px 25px;
+    }
+     .maincardsection{
+     display: flex;
+     justify-content: space-between;
+                    }
+                    .MainAboutUS{
+                        display: flex;
+                        position: relative;
+                        top: -50px;
+                    }
+                    .about{
+                       font-family: 'Outfit', sans-serif;
+                       font-size: 40px;
+                       padding-top: 50px;
+                       padding-bottom: 50px;
+                       text-align: center;
+                    }
+                    .aboutcontent{
+                    position: relative;
+                    top: 70px;
+                    left: 20px;
+                    text-align: left;
+                    font-family:'Imprima', sans-serif;
+                    }
+                    .aboutheading{
+                        position: relative;
+                        top: 50px;
+                        left:40px ;
+                    }
+                    .maingallery{
+                        display: flex;
+                        width: 100%;
+                        gap: 20px;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                    }
+                    .galleryheading{
+                        margin-top:50px ;
+                        text-align: center;
+                        font-family: 'Outfit', sans-serif;
+                    }
+                    .gallery{
+                        font-size: 40px;
+                        padding-bottom: 30px;
+                    }
+                    .serviceheading{
+                        text-align: center;
+                        font-family: 'Outfit', sans-serif;
+                        margin-top:50px ;
+                    }
+                    .services{
+                        font-size: 40px;
+                        padding-bottom: 30px;
+                    }
+                    .servicecontentheading1,.servicecontentheading2,.servicecontentheading3,.servicecontentheading4,.servicecontentheading5,.servicecontentheading6{
+                        font-size: 25px;
+                        text-align: left;
+                        padding-left: 10px;
+                     color: #001AFF;
+                        font-family: 'Outfit', sans-serif;
+                        margin-top: 20px;
+                    }
+                    .servicecontent1,.servicecontent2,.servicecontent3,.servicecontent4,.servicecontent5,.servicecontent6{
+                        text-align: left;
+                       margin-top: 20px;
+                       padding-left: 10px;
+                       font-family:'Imprima', sans-serif;
+                       width: 100%;
+                       font-size:14px ;
+                      
+                    }
+                    .sbutton1,.sbutton2,.sbutton3,.sbutton4,.sbutton5,.sbutton6{
+                        font-family: 'Poppins', sans-serif;
+                        margin-top: 20px;
+                        font-size: 18px;
+                        background-color: #00D1FF;
+                        color: white;
+                        border-radius: 5px;
+                        border: none;
+                        width: 150px;
+                        height: 50px;
+                        font-weight: 700;
+                        letter-spacing: 1px;
+                    }
+                    .mainservicesection1,.mainservicesection2,.mainservicesection3,.mainservicesection4,.mainservicesection5,.mainservicesection6{
+                        border: 1px solid  #001AFF;
+                        text-align: center;
+                    }
+                    .serviceimage1,.serviceimage2,.serviceimage3,.serviceimage4,.serviceimage5,.serviceimage6{
+                        padding-top: 8px;
+                    }
+                    .ServiceButton1,.ServiceButton2,.ServiceButton3,.ServiceButton4,.ServiceButton5,.ServiceButton6{
+                       text-align: left;
+                       padding-left: 12px;
+                       margin-bottom: 20px;
+                    }
+                    .firsttwoservicesection,.threefourservicesection,.fivesixservicesection{
+                        display: flex;
+                       gap: 20px;
+                    }
+                    .threefourservicesection,.fivesixservicesection{
+                        margin-top: 50px;
+                    }
+                    .blogheading{
+                        text-align: center;
+                        font-family: 'Outfit', sans-serif;
+                        margin-top:50px ;
+                    }
+                    .Bheading{
+                        font-size: 40px;
+                        padding-bottom: 30px;
+                    }
+                    .MainBlogDate1,.MainBlogDate2,.MainBlogDate3,.MainBlogDate4{
+                        display: flex;
+                        text-align: left;
+                        padding-left: 15px;
+                        margin-top: 20px;
+                        gap: 20px;
+                        align-items: center;
+                    }
+                    .MainBlog1,.MainBlog2,.MainBlog3,.MainBlog4{
+                        background-color:#EDF2FB ;
+                        width: 50%;
+                        height: 770px;
+                    }
+                    .BlogDateContent1,.BlogDateContent2,.BlogDateContent3,.BlogDateContent4{
+                        font-family: 'Outfit', sans-serif;
+                    }
+                    .blogcontentheading1,.blogcontentheading2,.blogcontentheading3,.blogcontentheading4{
+                      margin-top: 20px;
+                      margin-left: 15px;
+                      font-family: 'Outfit', sans-serif;
+                      font-size: 20px;
+                    }
+                    .blogContent1,.blogContent2,.blogContent3,.blogContent4{
+                        margin-top: 20px;
+                        margin-left: 15px;
+                        font-family:'Imprima', sans-serif;
+                        font-size: 20px;
+                    }
+                    .mainhearticon1,.maineyeicon1,.maincommenticon1,.mainhearticon2,.maineyeicon2,.maincommenticon2,.mainhearticon3,.maineyeicon3,.maincommenticon3,.mainhearticon4,.maineyeicon4,.maincommenticon4{
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+                        margin-left:15px ;
+                        margin-top: 20px;
+                    }
+                    .likes1,.views1,.comments1,.likes2,.views2,.comments2,.likes3,.views3,.comments3,.likes4,.views4,.comments4{
+                        font-family:'Imprima', sans-serif;  
+                    }
+                    .blogicons1,.blogicons2,.blogicons3,.blogicons4{
+                        display: flex;
+                       gap: 90px;
+                    }
+                    .maincommenticon1,.maincommenticon2,.maincommenticon3,.maincommenticon4{
+                        padding-left: 15px;
+                    }
+                    .mainfirsttwoblog,.mainThreeFourblog{
+                        display: flex;
+                     gap: 15px;
+                    }
+                    .mainThreeFourblog{
+                        margin-top: 50px;
+                    }
+                    .testiheading{
+                        text-align: center;
+                        font-family: 'Outfit', sans-serif;
+                        margin-top:50px ;
+                    }
+                    .thead{
+                        font-size: 40px;
+                        padding-bottom: 30px;
+                    }
+                    .maintesticontenthead{
+                        position: relative;
+                     top: -380px;
+                       left: 400px;
+                    }
+                    .testicommaimg{
+                       position: relative;
+                       top: -380px;
+                       left: 1000px;
+                    }
+                    .toptestimainhead{
+                        display: flex;
+                    }
+                    .testh2{
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 25px; 
+                        padding: 10px 0px; 
+                    }
+                    .testh3{
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 20px; 
+                        padding: 10px 0px;  
+                        color: #001AFF;
+                    }  
+                    .testicontent{
+                        font-family: 'Poppins', sans-serif;
+                        position: relative;
+                        top: -370px;
+                      width: 73%;
+                        left: 400px;
+                    }
+                    .maincontactheading{
+                        text-align: center;
+                        font-family: 'Outfit', sans-serif;
+                        margin-top:-280px ; 
+                    }
+                    .contacthead{
+                        font-size: 40px;
+                        padding-bottom: 30px; 
+                    }
+                    .firsttwoform,.threefourform{
+                        display: flex;
+                       gap: 50px;
+                       margin-top: 3px;
+                      
+                    }
+                    .name,.email,.date,.service{
+                        padding: 15px 120px 15px 20px ;
+                      border: 1px solid black;
+                      border-radius:5px;
+                      font-family: 'Poppins', sans-serif;
+                    }
+                    .threefourform{
+                        margin-top: 50px;
+                    }
+                    .message{
+                        margin-top: 50px;
+                        padding:20px 430px 8px 20px;
+                        border: 1px solid black;
+                        border-radius:5px;
+                        font-family: 'Poppins', sans-serif;
+                    }
+                    .contactbutton{
+                        margin-top: 50px;
+                    }
+                    .cbutton{
+                        padding: 20px 265px;
+                        text-align: center;
+                        align-items: center;
+                        border: 1px solid black;
+                        border-radius:5px;
+                        border: none;
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 600;
+                        font-size: 20px;
+                        background-color: #00D1FF;
+                        color: white;
+                    }
+                    .MainContact{
+                        display: flex;
+                    }
+                    .contactinfoMainheading{
+                        font-family: 'Outfit', sans-serif;
+                        margin-top: 50px;
+                    }
+                    .cinfo{
+                        margin-left: 75px;
+                        font-size: 30px;
+                    }
+                    .officehead,.phoneNo,.EmailMaininfo,.websiteinfo{
+                        margin-left: 75px;
+                        margin-top: 25px;
+                    }
+                    .officecontent,.Phonecon,.Emailcontent,.webcontent{
+                        margin-left: 75px; 
+                        margin-top: 20px; 
+                    }
+                    .office,.pnum,.Einfo,.website{
+                        font-family: 'Poppins', sans-serif;
+                    }
+                    .officecon,.pcon,.Econ,.webcon{
+                        font-family:'Imprima', sans-serif; 
+                    }
+                    .MainContactInfo{
+                        display: flex;
+                    }
+                    .infoimg{
+                     width: 665px;
+                     margin-top: 50px;
+                    }
+                    .contactimg{
+                        margin-left: 40px;
+                        width: 650px;
+                    }
+                    .MainFooter{
+                        background-color: #00173C;
+                        margin-top: 50px; 
+                        margin-bottom: 30px;
+                        color: white;
+                    }
+                    .FootContact{
+                        padding: 40px 0px 0px 129px;
+                        font-family: 'Outfit', sans-serif;
+                    }
+                    .firstfooterContact,.secondfooterContact,.ThirdfooterContent,.fourthfooterContent{
+                        display: flex;
+                        gap: 30px;
+                        align-items: center;
+                    }
+                    .locationcontent,.Emailfootercontent,.phonefootercontent,.clockfootercontent{
+                        margin-top: 20px;
+                        font-family: 'Poppins', sans-serif;
+                    }
+                    .FooterIcon1,.FooterIcon2,.FooterIcon3{
+                        margin-left: 70px;
+                        margin-top: 20px;
+                    }
+                    .FooterIcon4{
+                        margin-left: 66px;
+                        margin-top: 20px;
+                    }
+                    .fourthfooterContent{
+                       padding-bottom: 50px;
+                    }
+                    .popular{
+                        font-family: 'Outfit', sans-serif;
+                    }
+                    .FirstTwoFooter{
+                        display: flex;
+                    }
+                    .MainfooterPopularServices{
+                        margin-top: 40px;
+                         margin-left: 250px;
+                    }
+                    .Gynecologyc,.Cardiologyc,.Dentistryc,.Gastroenteroc{
+                        padding: 18px 0px 0px 0px;
+                        font-family: 'Poppins', sans-serif;
+                    }
+                    .orthoc{
+                     padding: 18px 0px 0px 0px;
+                     font-family: 'Poppins', sans-serif;
+                    }
+                    .MainFooter{
+                        display: flex;
+                    }
+                    .MainlinksFooter{
+                        margin-top: 40px;
+                        margin-left: 350px;
+                    }
+                    .links{
+                        font-family: 'Outfit', sans-serif;
+                    }
+                    .Hlink,.Alink,.Slink,.Rlink,.Tlink{
+                        padding: 18px 0px 0px 0px;
+                        font-family: 'Poppins', sans-serif;
+                    }
+                    .lastFooter{
+                        display: flex;
+                       margin-bottom: 30px;
+                       justify-content: space-between;
+                    }
+                    .Corights,.AllRIGHTS{
+                        font-family: 'Poppins', sans-serif; 
+                    }
+                    .messagecontact textarea::placeholder{
+                        color: black;
+                    }
+                    .MainContactForm input::placeholder{
+                        color: black;
+                    }
+               
