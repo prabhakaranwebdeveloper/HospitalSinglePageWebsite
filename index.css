@@ -478,4 +478,204 @@ font-size: 15px;
                     .MainContactForm input::placeholder{
                         color: black;
                     }
-               
+ /* RESPONSIVE WEB DESIGN FOR MOBILE */
+
+               @media screen and (max-width:500px) {
+                
+                .maincardsection,.MainAboutUS,.firsttwoservicesection,.threefourservicesection,.fivesixservicesection,.mainfirsttwoblog,.mainThreeFourblog,.blogicons1,.blogicons2,.blogicons3,.blogicons4,.MainContact,.firsttwoform,.threefourform,.MainContactInfo,.FirstTwoFooter,.MainFooter{
+                    display: block;
+                } 
+                .MainBlog1,.MainBlog2,.MainBlog3,.MainBlog4,.testimage,.aboutcontent,.testicontent{
+                    width: 100%;
+                    height: auto;
+                }
+                .aboutimage,.contactimg,.infoimg,.aboutimgr,.GaleryR1,.GaleryR2,.GaleryR3,.GaleryR4,.GaleryR5,.GaleryR6{
+                    width: 100%; 
+                    height: auto;
+                }
+               .herosectionimage{
+                width: 100%;
+                height: auto;
+                background-attachment: fixed;
+               }
+              .headersubdivisionone{
+                padding-left: 10px;
+              }
+               .mainheader{
+                display:flex;
+                justify-content: space-evenly;
+                gap: 3px;
+               }
+               .mainheaderul{
+               display: flex ;
+               gap: 20px;
+               font-size: 12px;
+               }
+             .mainheaderul li a{
+                margin: 0px -5px;
+             }
+             .Logoimage{
+            width: 100%;
+            height: auto;
+             }
+             .maintesticontenthead,.testicontent,.aboutcontent,.MainAboutUS,.aboutheading{
+                position: unset;
+             }
+             .contactimg{
+                margin-left: 0px;
+             }
+             .message,.cbutton{
+                padding: 0;
+             }
+             .herosectioncontent h5{
+            font-size: 25px;
+             }
+             .button{
+                margin-bottom: 40px;
+             }
+             .headersubdivisionone{
+                padding-top: 20px;
+                padding-right: 20px;
+             }
+             .aboutcontent{
+                margin-top: 20px;
+             }
+             .servicecontent1,.servicecontent2,.servicecontent3,.servicecontent4,.servicecontent5,.servicecontent6{
+                padding-left: 5px;
+                font-size: 13px;
+             }
+            .mainservicesection1,.mainservicesection3,.mainservicesection5{
+                margin-bottom: 20px;
+            }
+            .threefourservicesection,.fivesixservicesection{
+                margin-top: 20px;
+            }
+            .Header{
+                position: sticky;
+                top: 0;
+                background-color: white;
+                z-index: 1;
+            }
+            .blogContent1, .blogContent2, .blogContent3, .blogContent4{ 
+          font-size: 15px;
+            }
+            .blogicons1,.blogicons2,.blogicons3,.blogicons4{
+                display: flex;
+                gap: 0px;
+            }
+          .likes1,.views1,.comments1,.likes2,.views2,.comments2,.likes3,.views3,.comments3,.likes4,.views4,.comments4{
+            font-size: 14px;
+          }
+          .maineyeicon1, .maincommenticon1,.mainhearticon1,.maineyeicon2, .maincommenticon2,.mainhearticon2,.maineyeicon3, .maincommenticon3,.mainhearticon3,.maineyeicon4, .maincommenticon4,.mainhearticon4{
+            display: block;
+          }
+          .MainBlog1,.MainBlog2,.MainBlog3,.MainBlog4{
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+          }
+          .hearticon1,.hearticon2,.hearticon3,.hearticon4{
+            padding-left: 12px;
+          }
+          .eyeicon1,.eyeicon2,.eyeicon3,.eyeicon4{
+            padding-left: 45px;
+          }
+          .commenticon1,.commenticon2,.commenticon3,.commenticon4{
+            padding-left: 40px;
+          }
+          .views1,.views2,.views3,.views4{
+            padding-left: 20px;
+          }
+          .toptestimainhead{
+            display: flex;
+            gap: 50px;
+          }
+          .testicommaimg{
+            position: unset;
+          }
+          .maincontactheading{
+            margin-top: 50px;
+          }
+          .namecontact,.datecontact,.emailcontact{
+            margin-bottom: 40px;
+          }
+          .threefourform,.contactbutton{
+        margin-top: 40px;
+          }
+          .message{
+            padding:15px 88px 15px 20px;
+            margin-top: 40px;
+          }
+          .contactbutton{
+            margin-bottom: 40px;
+          }
+          .cbutton{
+            padding: 15px 88px;
+          }
+         .cinfo{
+            margin-left: 0;
+         }
+         .officehead,.phoneNo,.EmailMaininfo,.websiteinfo,.officecontent,.Phonecon,.Emailcontent,.webcontent{
+            margin-left: 0;
+         }
+         .FootContact{
+            padding: 40px 0px 0px 20px;
+         }
+         .FooterIcon1, .FooterIcon2, .FooterIcon3,.FooterIcon4{
+            margin-left: 20px;
+         }
+         .firstfooterContact,.secondfooterContact,.ThirdfooterContent,.fourthfooterContent{
+            gap: 10px;
+         }
+         .MainfooterPopularServices{
+            margin-left: 30px;
+         }
+         .fourthfooterContent{
+            padding-bottom: 0;
+         }
+         .MainlinksFooter{
+            margin-left: 30px;
+            padding-bottom: 40px;
+         }
+         .lastFooter{
+            display: block;
+            text-align: center;
+         }
+         .button:hover{
+            color: white;
+            background-color:#2200ff ;
+        }
+        .sbutton1:hover{
+             color: white;
+            background-color:#2200ff ;
+        }
+        .sbutton2:hover{
+             color: white;
+            background-color:#2200ff ;
+        }
+        .sbutton3:hover{
+             color: white;
+            background-color:#2200ff ;
+        }
+        .sbutton4:hover{
+             color: white;
+            background-color:#2200ff ;
+        }
+        .sbutton5:hover{
+             color: white;
+            background-color:#2200ff ;
+        }
+        .sbutton6:hover{
+             color: white;
+            background-color:#2200ff ;
+        }
+        .cbutton:hover{
+            color: white;
+            background-color:#2200ff ;
+        }
+        .mainThreeFourblog{
+            margin-top: 0;
+        }
+        .MainContact,.footerContact,.popularheading,.LinksFOOTER,.MainfooterPopularServices,.MainlinksFooter{
+            text-align: center;
+        }
+               }
